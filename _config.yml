@@ -1,3 +1,9 @@
+
+#Settings
+title: Immersive Media Pocket Reference
+description: A cheatsheet for VR/AR jargon.
+permalink: pretty
+
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
 

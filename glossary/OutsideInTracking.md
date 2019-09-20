@@ -2,7 +2,7 @@
 layout: default
 title: Outside-In Tracking
 nav_order: 3
-parent: Trakcing
+parent: Tracking
 grand_parent: Glossary
 ---
 # Outside-In Tracking
