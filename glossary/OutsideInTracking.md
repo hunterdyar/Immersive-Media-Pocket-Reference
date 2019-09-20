@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Inside-Out Tracking
+title: Outside-In Tracking
 nav_order: 3
 parent: Trakcing
 grand_parent: Glossary
