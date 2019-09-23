@@ -13,11 +13,11 @@ Wide angle lenses refer to lenses that typically produce images with more dramat
 
 Those mm generalities refer to 35mm film lenses or full frame cameras. Other sensor size lenses may show an “equivalent” mm marking, just so photographers understand what to expect if it were on a 35mm film camera body, as our “scale”. This scale of using these mm measurements of 35mm film cameras (in digital, we call them “full frame” cameras) is so universal, 3D modeling software, rendering software, and game engines will use this measurement instead of (or along side) the more pedantically accurate “horizontal field of view” (FOV) measurement.
 
-![/images/perspec1.PNG](Screenshot of unity scene with perspective camera)
+![Screenshot of unity scene with perspective camera](./images/perspec1.png)
  
 *A unity scene with a perspective camera. Note that the blue and red spheres appear further away, and the green sphere takes up about twice as much area as the blue.*
 
-![/images/perspect2.png](Screenshot of unity scene with orthographic camera)
+![Screenshot of unity scene with orthographic camera](./images/perspect2.png)
 
 *The exact same scene with an orthographic camera. The spheres distance from the camera is irrelevant. Note how you can no longer see the left side of the cube.*
 
