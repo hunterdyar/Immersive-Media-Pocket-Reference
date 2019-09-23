@@ -17,7 +17,7 @@ Those mm generalities refer to 35mm film lenses or full frame cameras. Other sen
  
 *A unity scene with a perspective camera. Note that the blue and red spheres appear further away, and the green sphere takes up about twice as much area as the blue.*
 
-![Screenshot of unity scene with orthographic camera](./images/perspect2.png)
+![Screenshot of unity scene with orthographic camera](./images/perspec2.png)
 
 *The exact same scene with an orthographic camera. The spheres distance from the camera is irrelevant. Note how you can no longer see the left side of the cube.*
 
