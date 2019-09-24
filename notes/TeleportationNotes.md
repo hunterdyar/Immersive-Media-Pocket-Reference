@@ -8,7 +8,7 @@ parent: Notes
 
 Teleportation is a simple mechanic to implement, but a difficult mechanic to implement well. Teleportation has a lot of depth.
 
-See the [Glossary entry on Teleportation](../Glossary/Locomotion/Teleportation.md) for definitions.
+See the [Glossary entry on Teleportation](../glossary/Locomotion/Teleportation.md) for definitions.
 
 ## Mid-Teleportation Animation
 The most common effect is not to instantly snap the user to a new location, but to quickly fade the screen to black. This is effective at reducing disorientation. 
