@@ -10,6 +10,17 @@ Teleportation is a simple mechanic to implement, but a difficult mechanic to imp
 
 See the [Glossary entry on Teleportation](../glossary/Locomotion/Teleportation.md) for definitions.
 
+## Orientation & Landmarks
+It is considered a good practice not to re-orient the player when they teleport. They should be facing the same world-relative direction at the start and end of the teleportation. If a recognizable landmark is in the distance visible, and they teleport closer to it, it should still be visible. If the player teleports to in front of a work-bench, for example, the system should probably not "helpfully" snap the player to be facing that work bench. The player should initiate this turn themselves, either through controller input when selecting the destination or by just turning their body. 
+
+We may wish to allow the player to re-orient themselves (their rotation) during the teleportation. The teleportation destination marker may include an arrow or indicator of some kind informing the user which direction they are going to be pointed when they teleport. 
+
+## Selection Accuracy 
+Selecting a destination with a straight-line laser-pointer style selection is difficult for players. The required accuracy of their pointing increases exponentially as the distance away from themselves increases. To counter this, one common solution is to show the teleportation as a parabolic arc, calculated like a thrown object. This allows a change in the angle of the controller to more consistently map to a change in the distance of destination.
+
+## Range
+It is often desired to limit the range of the users teleportation destinations. This is often important from a design perspective, as it forces the user to be more aware of their surroundings and the path they take through an environment. It helps with the above issue of selection accuracy. It can be annoying for a player to teleport multiple times to reach a further destination. One would want to design environments that avoid "long straight hallways" when using this form of teleportation. 
+
 ## Mid-Teleportation Animation
 The most common effect is not to instantly snap the user to a new location, but to quickly fade the screen to black. This is effective at reducing disorientation. 
 
@@ -26,10 +37,13 @@ Granular teleportation discourages physical movement. Users often tend to just k
 
 With granular teleportation, some users find a way to get themselves stuck with a disconnection between virtual and real spaces. For example, I have gotten myself into a situation where the real-world wall was right in front of me, and a virtual wall was right behind me. I found it difficult to break my virtual presence and walk through the virtual wall in order to try and reset myself.
 
-One method for tackling such troubling and immersion-breaking moments is to show the player an outline of their play-area space while teleporting. While this does helps, it asks the player to be aware of their real-world space at all times. I think it is a good idea to let such an outline be enabled in the settings, or only enable it when it seems that the player may likely need the assistance, such as if they are teleporting multiple times without taking other actions.
-
 ## Zone-Based Teleportation Notes
 Zone-based teleportation is easy for the user to understand and it keeps player away from real-world walls or from over-relying on teleportation, allowing presence to be build more easily. It is generally more difficult to design for and implement, especially in a situation where your level was not designed for VR, like an architecure sim or port of a video game.
+
+## Play Area Overlay
+One method for tackling the difficulty of granular teleportation for players is to show the player an outline of their play-area space while teleporting. While this does helps, it asks the player to be aware of their real-world space at all times. ex: Valve's **The Lab**. 
+
+I think it is a good idea to let such an outline be enabled in the settings, or only enable it when it seems that the player may likely need the assistance, such as if they are teleporting multiple times without taking other actions, or the destination they are in the process of selecting would largely overlap the play area with out-of-bounds areas.
 
 ### GDC Talk by OWLchemy Labs.
 The following GDC Talk includes an excellent analysis of zone-based and granular teleportation, as well as their pros and cons.
