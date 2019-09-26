@@ -24,6 +24,8 @@ A good teleportation system...
 - does not limit the player needlessly
 - allows for fine-tuned adjustment, for example
 - can optionally show a room overlay (for granular teleportation systems)
+- clearly indicates unique cases of teleportation, such as if one is teleporting to a new level, or going to change their scale.
+- indicate players movement in multiplayer experiences
 
 ## Staying out of the way
 My personal favorite design implementation of teleportation is from Owlchemy Labs **Vacation Simulator**. It's zone-based teleportation that selects the next direction from gaze direction and a button press. The system gets out of the way and is forgotten as much as possible. If you were to talk about all of the mechanics in Vacation Simulator, you may forget to mention teleportation at all. It's easy to forget about. For such an immersion-breaking mechanic, that's a good thing. One wants the player to be focused on the experience, not on magical glowing parabolas or on selecting a destination that won't have them bonking real-world walls.
@@ -39,9 +41,9 @@ We may wish to allow the player to re-orient themselves (their rotation) during 
 <iframe src='https://gfycat.com/ifr/ImportantLimpingGalapagossealion' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
 *A player teleporting a very short distance to pet the dog in *The Lab* instead of moving. 
 
-Laziness through teleporting is a problem. Players are used to in-game locomotion mechancs, and once given one, they often prefer to use the locomotion instead of moving their feet around. Moving around gives the player depth and parallax information that helps create presence, invite discovery/curiosity, and allows for more subtle and intricate design. Moving ones feet through the world creates a sense of presence that is threatened by constant player teleportation. Designing a teleportation system that encourages players to move their feet while not punishing them for teleporting is important.
+Laziness through teleporting is a problem. Players are used to in-game locomotion mechanics, and once given one, they often prefer to use the locomotion instead of moving their real body around. Moving around gives the player depth and parallax information that helps create presence, invites discovery/curiosity, and allows for more subtle and detailed world design. Moving ones feet through the world creates a sense of presence that is threatened by constant player teleportation. Designing a teleportation system that encourages players to move their feet (while not punishing them for choosing to teleport) is important. The carrot is better than the stick, in this case.
 
-World design can be a part of the problem. If one is limited in teleportation range yet given long open paths, then the player is likely to spam the teleportation, and get used to doing this for small movements, and not just large area traversal.
+World design can be a part of the problem. If one is limited in teleportation range yet given long open paths, then the player is likely to spam the teleportation, and thus get used to doing this for all locomotion - small movements too, not just large area traversal.
 
 <iframe src='https://gfycat.com/ifr/SparseExcellentFieldspaniel' frameborder='0' scrolling='no' allowfullscreen width='640' height='764'></iframe><p> <a href="https://gfycat.com/sparseexcellentfieldspaniel">via Gfycat</a></p>
 
@@ -57,7 +59,18 @@ Selecting a destination with a straight-line laser-pointer style selection is di
 *Calculating parabolic arc's from the hands position for teleportation improve accuracy and limit range.*
 
 ## Range
-It is often desired to limit the range of the users teleportation destinations. This is often important from a design perspective, as it forces the user to be more aware of their surroundings and the path they take through an environment. It helps with the above issue of selection accuracy. It can be annoying for a player to teleport multiple times to reach a further destination. One would want to design environments that avoid "long straight hallways" when using this form of teleportation. 
+It is often desired to limit the range of the users teleportation destinations. This is often important from a design perspective, as it forces the user to be more aware of their surroundings and the path they take through an environment. It helps with the above issue of selection accuracy. It can be annoying for a player to teleport multiple times to reach a further destination. One would want to design environments that avoid "long straight hallways" when using limited ranges.
+
+For zone based teleportation, one can be more flexible with range, especially if the destination can be clearly selected.
+
+## Teleporting For Level/World Changes and Scale changes
+If zones are conceptually linked, telporting towards a certain type of area or through something can trigger a level load and send the player to a whole new location. 
+
+One can teleport through a doorway, and when they are done teleporting be in the middle of a new room, and not at the entrance by the door. Or teleporting to an archway and end up in a whole new environment.
+
+The "exit" gates in **Vacation Simulator** are an example of this with zone-based teleportation, and the various magical doorways in **The Museum Of Other Realities** do this well with granular teleportation. It's always clear to the player that they are about to end up "somewhere else", which is the biggest challenge with such a system. If one is about to see a loading screen when they expect a quick blink, thats trouble. It needs to be clear that teleporting to this zone is "different"
+
+**The Museum Of Other Realities** also has a really interesting demonstration of teleporting into a different scale, when the player can go "into" various pieces of art. The destination marker shrinks/grows accordingly. **The Lab** does this when teleporting into the "Longbow" level. Scale shifts while teleporting are a interesting because ... they just work. Such scale shifts can be challenging with other locomotion systems.
 
 ## Obstacle Limitations
 You generally want to prevent the teleportation system from allowing the player to teleport into an out-of-bounds area, or into an area that would be uncomfortable, like "into" a table. One must give the player feedback when a destination is invalid. One could make the destination marker only appear when a valid destination is selected - indicating nothing would happen if the player pushed the teleport button. This makes it harder the player to adjust their selection to a valid location, however. I consider it better to give the player feedback. Perhaps show an "invalid" indicator at the destination marker and change the color of a parabola.
@@ -81,14 +94,17 @@ Another commonly used animation is to quickly move the player along a path while
 
 *The Lab showing the player being linearly interpolated between the destinations. Also showing a form of zone-based teleportation.*
 
-Particle effects, or a pre/post "dust trail" can help inform the user of the motion they just made, as well as inform other users in a multiplayer experience of what even happened. ex: **The Museum of Other Realities**.
+## Movement Trails
+Particle effects, or a pre/post "dust trail" can help inform the user of the motion they just made. More importantly, it can inform other users in a multiplayer experience of what even happened. ex: **The Museum of Other Realities**. 
+
+In multiplayer experiences, the teleporting player can "blink" to their destination while the avatar - for everyone else - linearly interpolates. I believe **Rec Room** uses such a system.
 
 ## Head or Hand Control
 Most teleportation systems use controller input for selecting where to look. This is effective for granular teleportation. When using zone-based teleportation, accuracy is not as critical, so long as the zone has a generous selection area. One can, instead of pointing the controller, just select the zone in the direction the player is looking. 
 
 <iframe src='https://gfycat.com/ifr/DifficultSilkyIrishdraughthorse' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe><p> <a href="https://gfycat.com/difficultsilkyirishdraughthorse">via Gfycat</a></p>
 
-*Zone based teleportation in Vacation Simulator. The destination is controlled by the players head position, not through controller pointing.*
+*Zone based teleportation in Vacation Simulator. The destination is controlled by the players head position, not through controller pointing. Note there is more than just a destination marker: doors open and close automatically, the carpet changes color, and destination-specific sounds play.*
 
 ### Gaze Limitation
 Given the importance of ensuring the player will know where they will end up when teleporting, should a system limit a player from teleporting somewhere they are not looking? Using head/gaze for destination selection does this inheirently, and is an advantage.
