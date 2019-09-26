@@ -10,6 +10,21 @@ Teleportation is a simple mechanic to implement, but a difficult mechanic to imp
 
 See the [Glossary entry on Teleportation](../glossary/Locomotion/Teleportation.md) for definitions.
 
+A good teleportation system
+- Intuitive
+- forgettable
+- Clear indications of valid and invalid locations
+- Very hard to accidentally select the wrong destination
+- Destination marker/parabola marker are not overly noisy/bright/distracting and "fit in" to the design of the world
+- The player will know where they end up, and are not disoriented
+- Does not obstruct other mechanics
+- Limits motion sickness
+
+## Staying out of the way
+My personal favorite design implementation of teleportation is from Owlchemy Labs **Vacation Simulator**. It's zone-based teleportation that selects the next direction from gaze direction and a button press. The system gets out of the way and is forgotten as much as possible. If you were to talk about all of the mechanics in Vacation Simulator, you may forget to mention teleportation at all. It's easy to forget about. For such an immersion-breaking mechanic, that's a good thing. One wants the player to be focused on the experience, not on magical glowing parabolas or on selecting a destination that won't have them bonking real-world walls.
+
+It is very important to allow the player to move around without having to think about their real-world environment or relative positioning, and Vacation Simulator pulls this off as well as any teleportation system I have seen so far. 
+
 ## Orientation & Landmarks
 It is considered a good practice not to re-orient the player when they teleport. They should be facing the same world-relative direction at the start and end of the teleportation. If a recognizable landmark is in the distance visible, and they teleport closer to it, it should still be visible. If the player teleports to in front of a work-bench, for example, the system should probably not "helpfully" snap the player to be facing that work bench. The player should initiate this turn themselves, either through controller input when selecting the destination or by just turning their body. 
 
@@ -68,12 +83,32 @@ Most teleportation systems use controller input for selecting where to look. Thi
 
 *Zone based teleportation in Vacation Simulator. The destination is controlled by the players head position, not through controller pointing.*
 
+### Gaze Limitation
+Given the importance of ensuring the player will know where they will end up when teleporting, should a system limit a player from teleporting somewhere they are not looking? Using head/gaze for destination selection does this inheirently, and is an advantage.
+
+Yet, when using hand control, oen should **not** limit the player to destinations in their field of view. Players will become proficient with the system, and you do not want to artificially lower the skill ceiling by limiting "advanced" moves like teleporting to a destination with the flick of a wrist. Players will feel more annoyed by this limitation than they will be confused if they accidentally press the teleport button.
+
+### Use A Dedicated Button
+Ensure that the trigger to teleport (the button) is always very clear. If it is a button on the controller, then ideally the button should only ever teleport the player, and not do anything else. This way the player avoids accidental teleports entirely, and is unlikely to accidentally press it while looking away from the destination marker.
+
 ## Lessons From Headbanging
 I once created a quick demo where the player teleported not on a button press, but by thrashing their head in the direction they want to go ("headbanging"). It's **not** a good interface, but it's surprisingly not that bad either. The player's own head movement completely covers up the disorientation from the teleportation movement. The hands are completely free to manipulate/hold objects or do control something else. It's surprisingly intuitive (just imagine trying to point someone in a direction with both hands full of groceries), and it's fairly immune to players "spamming" the teleportation button, as teleporting multiple times in a row is inherently uncomfortable.
 
 To be clear, I don't recommend "headbanging" teleportation for a number of accessibility, comfort, and safety reasons. Theres a risk to equipment, which could go flying off, and to faces, which could go flying towards walls. It's also difficult to calibrate when to teleport and when not to, as you want the teleportation to happen with as minimal head movement as possible without false positives. All that being said, the fact that such an absurd control method isn't as bad as it "should be" goes to show that teleportation is far from a "solved" problem in VR, and experimentation is still important.
 
-## Granular Teleportation Notes
+## Play Area Overlay
+One method for tackling the difficulty of granular teleportation for players is to show the player an outline of their play-area space while teleporting. While this does helps, it asks the player to be aware of their real-world space at all times.
+
+I think it is a good idea to let such an outline be enabled in the settings, or only enable it when it seems that the player may likely need the assistance, such as if they are teleporting multiple times without taking other actions, or the destination they are in the process of selecting would largely overlap the play area with out-of-bounds areas.
+
+<iframe src='https://gfycat.com/ifr/WindyPaleCod' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe><p> <a href="https://gfycat.com/windypalecod">via Gfycat</a></p>
+
+*An overlay of the player's play area boundaries are visible in **The Lab***
+
+## Audio Considerations
+OWLchemy labs discuss the importance of audio in the GDC talk linked below.
+
+## Notes on Granular Teleportation
 Granular Teleportation can be easier to implement than zone-based teleportation from a design perspective, but it is more challenging and asks for more attention from the user as a skill, which can lessen the sense of presence.
 
 It is difficult for the user to know where they are in the real world, while still requiring them to be obliquely aware of such information in order to teleport effectively.
@@ -82,7 +117,7 @@ Granular teleportation discourages physical movement. Users often tend to just k
 
 With granular teleportation, some users find a way to get themselves stuck with a disconnection between virtual and real spaces. For example, I have gotten myself into a situation where the real-world wall was right in front of me, and a virtual wall was right behind me. I found it difficult to break my virtual presence and walk through the virtual wall in order to try and reset myself.
 
-## Zone-Based Teleportation Notes
+# Notes on Zone-Based Teleportation
 Zone-based teleportation is easy for the user to understand and it keeps player away from real-world walls or from over-relying on teleportation, allowing presence to be build more easily. It is generally more difficult to design for and implement, especially in a situation where your level was not designed for VR, like an architecure sim or port of a video game.
 
 One advantage of zone-based teleportation is you can teleport the "room", and not the "player position", preventing the player's play-area from ever becoming misaligned from the virtual play-area. This is a huge advantage, and a great reason to design environments for zone-based teleportation. 
@@ -97,24 +132,7 @@ One disadvantage of zone-based teleportation is how one chooses to select the ap
 
 Not how in the above Vacation Simulator clip, I can't teleport down to the water area from the deck, even though it is "right there". I have to "follow the path" through the building to get to the zone. This makes sense because of the design of the level - there is no path connecting the two zones, while paths connect all other zones; but still feels like it *should* work for the player.
 
-## Play Area Overlay
-One method for tackling the difficulty of granular teleportation for players is to show the player an outline of their play-area space while teleporting. While this does helps, it asks the player to be aware of their real-world space at all times.
-
-I think it is a good idea to let such an outline be enabled in the settings, or only enable it when it seems that the player may likely need the assistance, such as if they are teleporting multiple times without taking other actions, or the destination they are in the process of selecting would largely overlap the play area with out-of-bounds areas.
-
-<iframe src='https://gfycat.com/ifr/WindyPaleCod' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe><p> <a href="https://gfycat.com/windypalecod">via Gfycat</a></p>
-
-*An overlay of the player's play area boundaries are visible in **The Lab***
-
-## Staying out of the way
-My personal favorite design implementation of teleportation is from Owlchemy Labs **Vacation Simulator**. It's zone-based teleportation that selects the next direction from gaze direction and a button press. The system gets out of the way and is forgotten as much as possible. If you were to talk about all of the mechanics in Vacation Simulator, you may forget to mention teleportation at all. It's easy to forget about. For such an immersion-breaking mechanic, that's a good thing. One wants the player to be focused on the experience, not on magical glowing parabolas or on selecting a destination that won't have them bonking real-world walls.
-
-It is very important to allow the player to move around without having to think about their real-world environment or relative positioning, and Vacation Simulator pulls this off as well as any teleportation system I have seen so far. 
-
-## Audio Considerations
-OWLchemy labs discuss the importance of audio in the GDC talk linked below.
-
-### GDC Talk by OWLchemy Labs.
+## GDC Talk by OWLchemy Labs.
 The following GDC Talk includes an excellent analysis of zone-based and granular teleportation, as well as their pros and cons.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q83f3sdQBBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
