@@ -3,7 +3,7 @@ This site is a work-in-progress document for collecting knowledge about VR.
 
 ## Project Goals
 1. Formally act as a glossary of terms for immersive media technology.
-2. Collect and organize resources, links, and more to serve as a convenient gateway to existing information.
+2. Serve as a convenient gateway to existing information & resources.
 
 ## Who did this
 This currently just a side project by Hunter Dyar, me. I teach Immersive Media at Chatham University and was writing a glossary for my intro course when I thought "lets just put this out there". This is the very beginnings of that, and should still serve as a course reference guide in the meantime.
@@ -16,5 +16,13 @@ Creative Commons Attribution 4.0. [CC BY 4.0](https://creativecommons.org/licens
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
-## gfycat links
-- https://gfycat.com/alarmedthirdiberianlynx
+## All gfycat links
+- Teleport, zone-based: https://gfycat.com/alarmedthirdiberianlynx
+- Teleport, lazy player: https://gfycat.com/importantlimpinggalapagossealion
+- Teleport, room boundary overlay: https://gfycat.com/windypalecod
+- Teleport destination selection through head position in Vacation Simulator: https://gfycat.com/difficultsilkyirishdraughthorse
+- Room-relative teleportation in Vacation Simulator: https://gfycat.com/incompatibledeadlyantelopegroundsquirrel
+- zone connection considerations in Vacation Simulator: https://gfycat.com/welcomeilliteratedarklingbeetle
+- Teleportation Parabola in Forestry: https://gfycat.com/speedyfemininefieldmouse-snow
+- Teleportation Through A Tree in Forestry: https://gfycat.com/deliciousdifferentbrownbutterfly
+- Spamming teleportation to cover distance in Forestry: https://gfycat.com/sparseexcellentfieldspaniel
