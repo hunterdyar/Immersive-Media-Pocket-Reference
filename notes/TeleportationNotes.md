@@ -24,7 +24,10 @@ It is often desired to limit the range of the users teleportation destinations. 
 ## Mid-Teleportation Animation
 The most common effect is not to instantly snap the user to a new location, but to quickly fade the screen to black. This is effective at reducing disorientation. 
 
-Another commonly used animation is to quickly move the player along a path while they are teleporting. This is often used when the player is connected to an avatar that needs to move through the world to check for collisions. This can be extremely disorienting. It is recommended to instantly speed the player up to the movement speed, and instantly stop moving them when they reach the destination, as velocity tends to be less troublesome than acceleration in terms of motion sickness. While doing this, introducing a screen vignette to darken or black-out the periphery also helps prevent motion sickness.
+Another commonly used animation is to quickly move the player along a path while they are teleporting. This is often used when the player is connected to an avatar that needs to move through the world to check for collisions. This can be uncomfortable, especially if done slowly. It is recommended to instantly speed the player up to the movement speed, and instantly stop moving them when they reach the destination, as velocity tends to be less troublesome than acceleration in terms of motion sickness. While doing this, introducing a screen vignette to darken or black-out the periphery also helps prevent motion sickness.
+
+<div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/AlarmedThirdIberianlynx' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+*The lab showing the player being linearly interpolated between the destinations. Also showing a form of zone-based teleportation.*
 
 Particle effects, or a pre/post "dust trail" can help inform the user of the motion they just made, as well as inform other users in a multiplayer experience of what even happened. ex: **The Museum of Other Realities**.
 
