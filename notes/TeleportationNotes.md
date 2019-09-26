@@ -10,15 +10,20 @@ Teleportation is a simple mechanic to implement, but a difficult mechanic to imp
 
 See the [Glossary entry on Teleportation](../glossary/Locomotion/Teleportation.md) for definitions.
 
-A good teleportation system
-- Intuitive
-- forgettable
-- Clear indications of valid and invalid locations
-- Very hard to accidentally select the wrong destination
-- Destination marker/parabola marker are not overly noisy/bright/distracting and "fit in" to the design of the world
-- The player will know where they end up, and are not disoriented
-- Does not obstruct other mechanics
-- Limits motion sickness
+A good teleportation system...
+- is intuitive
+- is forgettable
+- clearly indicates valid and invalid destinations
+- makes it very hard to accidentally select the wrong destination
+- does not have an overly noisy/bright/distracting Destination marker/parabola marker.
+- Has a destination marker that "fits in" to the design of the world
+- informs the player will know where they end up, limits "where am I" disorientation
+- has a limited range that is appropriate for the environment
+- does not obstruct other mechanics
+- minimizes motion sickness
+- does not limit the player needlessly
+- allows for fine-tuned adjustment, for example
+- can optionally show a room overlay (for granular teleportation systems)
 
 ## Staying out of the way
 My personal favorite design implementation of teleportation is from Owlchemy Labs **Vacation Simulator**. It's zone-based teleportation that selects the next direction from gaze direction and a button press. The system gets out of the way and is forgotten as much as possible. If you were to talk about all of the mechanics in Vacation Simulator, you may forget to mention teleportation at all. It's easy to forget about. For such an immersion-breaking mechanic, that's a good thing. One wants the player to be focused on the experience, not on magical glowing parabolas or on selecting a destination that won't have them bonking real-world walls.
@@ -32,7 +37,7 @@ We may wish to allow the player to re-orient themselves (their rotation) during 
 
 ## Laziness and Spamming
 <iframe src='https://gfycat.com/ifr/ImportantLimpingGalapagossealion' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
-*A player teleporting one foot to pet the dog in *The Lab* instead of moving. 
+*A player teleporting a very short distance to pet the dog in *The Lab* instead of moving. 
 
 Laziness through teleporting is a problem. Players are used to in-game locomotion mechancs, and once given one, they often prefer to use the locomotion instead of moving their feet around. Moving around gives the player depth and parallax information that helps create presence, invite discovery/curiosity, and allows for more subtle and intricate design. Moving ones feet through the world creates a sense of presence that is threatened by constant player teleportation. Designing a teleportation system that encourages players to move their feet while not punishing them for teleporting is important.
 
@@ -41,6 +46,8 @@ World design can be a part of the problem. If one is limited in teleportation ra
 <iframe src='https://gfycat.com/ifr/SparseExcellentFieldspaniel' frameborder='0' scrolling='no' allowfullscreen width='640' height='764'></iframe><p> <a href="https://gfycat.com/sparseexcellentfieldspaniel">via Gfycat</a></p>
 
 *A player spamming teleportation in order to cover a large distance in Forestry. Note how the fast mid-teleportation animation, open design, and large paths encourage this behavior, and that the landmarks and limited range means the player almost always can instantly recognize where they are when teleporting.*
+
+One may wish to prevent the player from teleporting too close to themselves, but I believe this is a mistake, as sometimes a player may wish to "fine-tune" their position, especially when they have a smaller play area.
 
 ## Selection Accuracy 
 Selecting a destination with a straight-line laser-pointer style selection is difficult for players. The required accuracy of their pointing increases exponentially as the distance away from themselves increases. To counter this, one common solution is to show the teleportation as a parabolic arc, calculated like a thrown object. This allows a change in the angle of the controller to more consistently map to a change in the distance of destination.
@@ -133,6 +140,6 @@ One disadvantage of zone-based teleportation is how one chooses to select the ap
 Not how in the above Vacation Simulator clip, I can't teleport down to the water area from the deck, even though it is "right there". I have to "follow the path" through the building to get to the zone. This makes sense because of the design of the level - there is no path connecting the two zones, while paths connect all other zones; but still feels like it *should* work for the player.
 
 ## GDC Talk by OWLchemy Labs.
-The following GDC Talk includes an excellent analysis of zone-based and granular teleportation, as well as their pros and cons.
+The following GDC Talk includes an excellent analysis of zone-based and granular teleportation systems.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q83f3sdQBBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
