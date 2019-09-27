@@ -26,3 +26,9 @@ Creative Commons Attribution 4.0. [CC BY 4.0](https://creativecommons.org/licens
 - Teleportation Parabola in Forestry: https://gfycat.com/speedyfemininefieldmouse-snow
 - Teleportation Through A Tree in Forestry: https://gfycat.com/deliciousdifferentbrownbutterfly
 - Spamming teleportation to cover distance in Forestry: https://gfycat.com/sparseexcellentfieldspaniel
+- Garden of the Sea gooey teleportation marker https://gfycat.com/aromaticgiantaztecant
+- Garden of the Sea valid/invalid Teleporter marker https://gfycat.com/frankparallelblackbuck
+- Garden of the Sea pickup/reach system and item snap-storage https://gfycat.com/timelypitifulanole
+- Garden of the Sea trouble grabbing correct object https://gfycat.com/secondaryobeseborderterrier
+- Garden of the Sea Inventory Orbs https://gfycat.com/concreteremarkablekitty
+- Gardeb of the Sea Hands https://gfycat.com/grimyjaggedglobefish

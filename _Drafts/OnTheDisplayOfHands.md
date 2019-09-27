@@ -70,6 +70,9 @@ How do you deal with the end of the hand? Do you attempt to calculate the player
 
 What about the hole? Generally for hands, making the end solid is preferrable to an empty hole, which works fine for gloves. Nobody wants to be holding skin-gloves, that’s weird.
 
+<iframe src='https://gfycat.com/ifr/GrimyJaggedGlobefish' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
+*In Garden of the Sea, the hands are solid and perfectly black, made to look like holes but without receiving light or shadows. Also note the IK is simple, one can close or open the hands, and that's it, no individual finger IK.*
+
 How the end is designed should be consistent with the world - a horror game could remind you of your flesh, blood, and bones. A solid flat perfect-black surface may work in a cartoony game but seem out of place in a hyper-realistic world. That world may be better to design a darkened mostly-flat nub that is textured and receives shadows.
 
 You want the player to forget about it if it doesn’t matter, but if they do notice it, you want it to contribute to the world building.
