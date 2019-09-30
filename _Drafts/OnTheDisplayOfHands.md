@@ -7,13 +7,13 @@ Creating interfaces that are intuitive is done easily with hands. We show the us
 But how do we show them where their real hand is? There are a lot of elements to consider.
 
 ## Tracking Technology
- There are three main types of hand tracking technologies: Optical or Sensor based, Gloves, and Controllers. Sensor-based hand trackers allow the user to have their hand represented without having to hold or wear anything, and many technologists believe it’s the “way of the future” thanks to a low barrier to use.
+There are three main types of hand tracking technologies: Optical or Sensor based, Gloves, and Controllers. Sensor-based hand trackers allow the user to have their hand represented without having to hold or wear anything, and many technologists believe it’s the “way of the future” thanks to a low barrier to use.
  
- Gloves, going back to Jaron Lanier’s DataGlove, have had a long history in VR development. They allow us to get past technological limitations of sensor-based tracking without asking the user to hold anything, and can have haptic solutions built into them.
+Gloves, going back to Jaron Lanier’s DataGlove, have had a long history in VR development. They allow us to get past technological limitations of sensor-based tracking without asking the user to hold anything, and can have haptic solutions built into them.
  
- Controller based solutions are the most common. The biggest drawback is asking the user to hold a controller. It’s difficult to throw things, open ones hand, grab and let go of items, and other ‘open-hand’ interactions while remembering to not actually open ones hand all the way. Users get used to never letting go of the controllers, and when they leave VR, they have trouble putting them down. It is a challenge to infer hand/finger position from a gripped controller as well. They are ever-present and unable to be forgotten about, but allow for some interactions - like the timing of a button press - that users can complete with greater accuracy than with other technology, thanks to user familiarity. 
+Controller based solutions are the most common. The biggest drawback is asking the user to hold a controller. It’s difficult to throw things, open ones hand, grab and let go of items, and other ‘open-hand’ interactions while remembering to not actually open ones hand all the way. Users get used to never letting go of the controllers, and when they leave VR, they have trouble putting them down. It is a challenge to infer hand/finger position from a gripped controller as well. They are ever-present and unable to be forgotten about, but allow for some interactions - like the timing of a button press - that users can complete with greater accuracy than with other technology, thanks to user familiarity. 
  
- The rest of this document will assume controller-based systems for hand tracking.
+The rest of this document will assume controller-based systems for hand tracking.
   
 ## Do you need hands?
 The fact that we need to show the controllers in VR appears to be an obvious question: of course. It doesn’t get enough consideration. Think deeply about whether an experience ever actually needs to show hands as hands. 
@@ -84,6 +84,7 @@ For arms, you have further decision to calculate the likely arm position of the 
 
 ## Tomato Presence
 *see Owlchemy Page*
+
 ## Finger IK
 Finger IK is one of the toughest parts of designing hands, One can interpret from various button presses/touches/controller information what pose the hand is in, and show it accordingly.
 
@@ -95,14 +96,4 @@ Players, particularly those used to controller interfaces, have never really bef
 
 Because of this, the poses tend to be learned just like any other controller interface, and the dreams of them being more “natural” are... sort of there. It works alright, once you are used to it. I find it annoying for key interactions - if I cant push a button because my hand is in the wrong pose because I didn’t lift my thumb *off* of the joystick, that’s troublesome. The interface - like a button - should accept as many poses as possible. A button should accept any pose, I should be able to just slap it with my hand, and not have to remember how to extend a pointer finger.
 
-## Avoid Finger-Precise Motion from Controller Position
-I find extending a pointer finger and pressing a button is one of the most annoying things to do in VR. It works fine depending on the position of the button — if I am pushing it with my finger straight perpendicular to the button. If the button is in any other position, however, I would (in the real world, and as promised by the skeuomorphic design and hand representation) would move my hand near the button, and bend my finger to press it. Like how I’m typing right now. My hand isn’t extending straight up above the keyboard, pointing down at it.
-
-Humans are far more accurate with moving the tips of our fingers than moving our hand. Controller tracking does not track the tips of our fingers (buttons and joysticks aside). If you ask me to push a small button with the tip of the finger, but then make me push the button buy moving my entire hand - that’s both annoying and presence-breaking.
-
-If you want me to have finger-precise input, give me a controller or virtual tool or whatever excuse to map that input to a joystick, button-press, or trigger on the controller. In other words, map finger-tip-presice virtual input to finger-tip input from the controllers, and map hand-position input from the controllers to hand-position interfaces in the game.
-
-(Circling back to an above point, this is one of the reasons that not showing hands, at all, is a decent solution. The trigger of the controller maps well to the trigger of a gun, and allows for precise and accurate input. You can invent new tools for your experience that map well tio controller input. Humans are good at learning tools, while hands should behave as we expect.)
-
-This is why virtual input works well when you’re smashing giant buttons with your fist, or pulling on ceiling-fan cords. I’ve seen a few implementations of switches in VR, where you smash them with your fist, and they flip their state subtlety. It’s weird and uncomfortable. One might as well make it a giant handle to pull. The good news is those examples at least do respond to being “smashed by a fist”.
 

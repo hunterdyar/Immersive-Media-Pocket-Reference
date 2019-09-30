@@ -2,7 +2,7 @@
 layout: default
 title: Notes on Teleportation
 nav_order: 1
-parent: Notes
+parent: Design Notes
 ---
 # Notes on Teleportation
 

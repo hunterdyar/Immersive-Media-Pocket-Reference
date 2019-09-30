@@ -2,7 +2,7 @@
 layout: default
 title: Perspective Distortion and Projection
 nav_order: 1
-parent: Notes
+parent: Design Notes
 ---
 # Notes on Perspective Distortion and Projections
 
