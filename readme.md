@@ -31,4 +31,8 @@ Creative Commons Attribution 4.0. [CC BY 4.0](https://creativecommons.org/licens
 - Garden of the Sea pickup/reach system and item snap-storage https://gfycat.com/timelypitifulanole
 - Garden of the Sea trouble grabbing correct object https://gfycat.com/secondaryobeseborderterrier
 - Garden of the Sea Inventory Orbs https://gfycat.com/concreteremarkablekitty
-- Gardeb of the Sea Hands https://gfycat.com/grimyjaggedglobefish
+- Garden of the Sea Hands https://gfycat.com/grimyjaggedglobefish
+- MOR Teleportation Multiplayer Trails https://gfycat.com/forcefulsnoopyhousefly
+- MOR Teleportation Scale Down https://gfycat.com/heavymasculinealabamamapturtle
+- MOR Teleportation Through Portal https://gfycat.com/victoriousweirdgemsbuck
+- MOR Teleportation Scale down and up https://gfycat.com/passionaterichbrocketdeer

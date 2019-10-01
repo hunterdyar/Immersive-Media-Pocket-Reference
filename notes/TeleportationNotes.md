@@ -86,11 +86,21 @@ One can teleport through a doorway, and when they are done teleporting be in the
 
 The "exit" gates in **Vacation Simulator** are an example of this with zone-based teleportation, and the various magical doorways in **The Museum Of Other Realities** do this well with granular teleportation. 
 
+<iframe src='https://gfycat.com/ifr/VictoriousWeirdGemsbuck' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
+
 It must always be clear to the player that they are about to end up "somewhere else", somewhere other than where their destination marker indicates. The biggest design challenge with such a system is indicating this to the player. If one is about to see a loading screen when they expect a quick blink, thats trouble. It needs to be clear that teleporting to this zone is "different" than how most of the teleporting systems work.
 
 **Vacation Simulator** does this through unique in-world objects and signage - as well as having an advantage of being zone-based conceptually. **Museum Of Other Realities** communicates with a consistent use of this funky tie-dye magic-gate design. It doesn't tend to show the player where they will end up, as discovery and inviting curiosity is part of the design and joy of the museum.
 
-**The Museum Of Other Realities** also has a really interesting demonstration of teleporting into a different scale, when the player can go "into" various pieces of art. The destination marker shrinks/grows accordingly. **The Lab** does this when teleporting into the "Longbow" level, with a small avatar character to help show you your scale before/after the teleport. Scale shifts while teleporting are a interesting because ... they just work. Such scale shifts can be challenging with other locomotion systems. I would love to see more examples of this done well. Scale is still an under-explored mechanic in VR.
+**The Museum Of Other Realities** also has a really interesting demonstration of teleporting into a different scale, when the player can go "into" various pieces of art. 
+
+<iframe src='https://gfycat.com/ifr/PassionateRichBrocketdeer' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
+
+The destination marker shrinks/grows accordingly. **The Lab** does this when teleporting into the "Longbow" level, with a small avatar character to help show you your scale before/after the teleport. Scale shifts while teleporting are a interesting because ... they just work. Such scale shifts can be challenging with other locomotion systems. I would love to see more examples of this done well. Scale is still an under-explored mechanic in VR.
+
+The following example is a player, unassisted and unprompted by anyone else, teleporting "down into" a piece of art in the **Museum of Other Realities**. This player has never been in this experience before, but the scale-shift during teleportation was perfectly intuitive.
+
+<iframe src='https://gfycat.com/ifr/HeavyMasculineAlabamamapturtle' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
 
 ## Obstacle Limitations
 You want to prevent the teleportation system from allowing the player to teleport into an out-of-bounds area, or to an area that would be uncomfortable, like "into" a table. One must give the player feedback when a destination is invalid. One solution is to make the destination marker only appear when a valid destination is selected - indicating nothing would happen if the player pushed the teleport button. This works, but makes it harder the player to adjust their selection to a valid location. I consider it better to give the player feedback. Perhaps show an "invalid" indicator at the destination marker and change the color of a parabola.
@@ -121,7 +131,11 @@ Another commonly used animation is to quickly move the player along a path while
 *The Lab showing the player being linearly interpolated between the destinations. Also showing a form of zone-based teleportation.*
 
 ## Movement Trails
-Particle effects, or a pre/post "dust trail" can help inform the user of the motion they just made. More importantly, it can inform other users in a multiplayer experience of what even happened. ex: **The Museum of Other Realities**. 
+Particle effects, or a pre/post "dust trail" can help inform the user of the motion they just made. More importantly, it can inform other users in a multiplayer experience of what even happened. 
+
+<iframe src='https://gfycat.com/ifr/ForcefulSnoopyHousefly' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
+
+*One player follows another easily in **The Museum of Other Realities** thanks to various trails (yellow leaves), "whooshes" (red action-lines), avatar movement, and destination marker indication.*
 
 In multiplayer experiences, the teleporting player can "blink" to their destination while the avatar - for everyone else - linearly interpolates. I believe **Rec Room** uses such a system.
 
