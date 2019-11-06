@@ -18,6 +18,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [A-Frame](https://aframe.io/)
 - [Primrose](https://www.primrosevr.com)
 - [React 360](https://facebook.github.io/react-360/)
+- [Argon.js](https://www.argonjs.io/)
 ## 3D Modeling (Desktop)
 - [Blender](https://www.blender.org/) - Free, Open Source
 - [Maya](https://www.autodesk.com/products/maya/overview) - Paid
@@ -29,6 +30,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [AssetForge](https://kenney.itch.io/assetforge) - Paid
 - [MakeHuman](http://www.makehumancommunity.org/) - Free
 - [ProBuilder (in Unity)](https://unity3d.com/unity/features/worldbuilding/probuilder) - Free
+- [Rhino3D](https://www.rhino3d.com/) - Paid
 ## 3D Modeling (In VR)
 - [Google Blocks](https://arvr.google.com/blocks/) - Free
 - [Oculus Medium](https://www.oculus.com/medium/) - Free
