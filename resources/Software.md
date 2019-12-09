@@ -6,7 +6,8 @@ parent: Resources
 ---
 # Software
 
-A non-exhaustive list of tools for creating VR/AR content. In no particular order. Any editorialization to be taken with a grain of salt.
+A non-exhaustive list of tools for creating VR/AR content. In no particular order. Any editorialization to be taken with a grain of salt.  
+
 
 ## Game Engines
 - [Unity](https://unity.com/) - Free to use
@@ -25,6 +26,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [3DSMax](https://www.autodesk.com/products/3ds-max/overview) - Paid
 - [Cinema4D](https://www.maxon.net) - Paid
 - [Sketchup](https://www.sketchup.com) - Paid
+- [MeshMixer](http://www.meshmixer.com/) - Free
 - [MagicaVoxel](https://ephtracy.github.io/) - Free
 - [Spritestack.io](https://spritestack.io/) - Free, Premium Tier
 - [AssetForge](https://kenney.itch.io/assetforge) - Paid
@@ -62,8 +64,9 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [PhotoModeler](https://www.photomodeler.com/) - Paid
 - [MeshRoom](https://github.com/alicevision/meshroom) - Free, Open Source
 ## AR Creation and Editing
-- [Spark AR](https://sparkar.facebook.com/ar-studio) - Free
+- [Spark AR by Facebook](https://sparkar.facebook.com/ar-studio)
 - [Adobe Aero (ios)](https://helpx.adobe.com/aero/get-started.html)
+- [Lens Studio by Snapchast](https://lensstudio.snapchat.com/)
 ## Audio Editing (non-music focused)
 - [Audacity](https://www.audacityteam.org/) - Free, Open Source
 - [Pro Tools](https://www.avid.com/pro-tools) - Paid, Free version
