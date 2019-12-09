@@ -1,6 +1,6 @@
 # On The Display of Hands
 
-Hands are deeply personal things. This is a fact I know as well as the back of my hand. In VR, many verbs operate around the hand. Pointing, grabbing, selecting, pushing, throwing, and so on.
+Hands are deeply personal things. In VR, many verbs operate around the hand. Pointing, grabbing, selecting, pushing, throwing, and so on.
 
 Creating interfaces that are intuitive is done easily with hands. We show the user something they recognize as interactable, like a button, a switch, or a rope. Then show them a virtual hand where their real hand is. 
 
@@ -24,6 +24,9 @@ For many experiences where the main interaction is through a tool (say, a gun), 
 To abstract from the previous point, one does not need to represent hands in space when they can just represent the controller. Either through a realistic model of the controller the player is using, or through a version of the controller that looks similar enough one could point out buttons on it, but otherwise fits into the world of the experience.
 
 This is a good solution, requires almost no teaching to the player, doesn’t break immersion or presence, and is generally far easier to implement then hands. Consider it seriously.
+
+## Hand Representation Accuracy
+Humans are pretty good at looking at *something* and how that *something* moves, and recognizing that it is a hand. We don't really need our hands to look like hands, or for a persons hand to look like their *own* hand. (insert link to oculus video)
 
 ## Degree of realism
 First and foremost, the representation of hands should fit into the world. If you have a realistic looking world, your hands should be realistic. If you have a cartoony worlds, the hands should match. 
