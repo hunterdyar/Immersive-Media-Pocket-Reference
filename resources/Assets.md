@@ -22,7 +22,7 @@ Always ensure that you have the rights to use the thing you are using. Is it act
 - [Thingiverse](http://thingiverse.com/)
 - [Sketchup 3D Warehouse](https://3dwarehouse.sketchup.com/)
 - [Tinkercad](https://www.tinkercad.com)
-- [Blender For Architecture](blender-archi.tuxfamily.org/Models)
+- [Blender For Architecture](http://blender-archi.tuxfamily.org/Models)
 - [Craftmanspace](https://www.craftsmanspace.com/free-3d-models)
 - [Archive3D](https://archive3d.net/)*
 - [Stanford 3D Scanning Repository](https://graphics.stanford.edu/data/3Dscanrep/)
