@@ -39,11 +39,11 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Microsoft Maquette](https://www.maquette.ms/) - Free
 - [Gravity Sketch](https://www.gravitysketch.com/) - Paid
 - [Mesh Maker VR](https://www.wearvr.com/apps/mesh-maker-vr) - Free
-## 3D Model Sculpting
+## 3D Modeling (Sculpting Workflow)
 - [zBrush](http://pixologic.com/zbrush/features/overview/) - Paid
 - [Oculus Medium](https://www.oculus.com/medium/) - Free
 - [PolyBrush (in Unity)](https://unity3d.com/unity/features/worldbuilding/polybrush) - Free
-- (Blender, Maya and other 3D software sculpting workflows)
+- (Blender and Maya (and a few others) have built in sculpting workflows as well)
 ## 3D Model Processing/Converting
 - [MeshLab](http://www.meshlab.net/)  -Free
 ## Texture Map Creation/Editing
