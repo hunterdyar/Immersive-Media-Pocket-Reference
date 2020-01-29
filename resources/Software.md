@@ -73,7 +73,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Wave Shop](http://waveshop.sourceforge.net/) - Free, Open Source
 ## Multimedia Programming/Processing
 - [PureData](http://puredata.info/)
-- [Cyclin74 Max](https://cycling74.com/) - Paid
+- [Cycling74 Max](https://cycling74.com/) - Paid
 ## Sound Effect Creation
 - [BFXR](https://www.bfxr.net/) - Free
 - [SFXR](https://stammel.net/projekte/sfxr/app/) - Free
@@ -87,6 +87,8 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Sublime Text](https://www.sublimetext.com/) - "Free", Paid with unlimted free trial
 - [Notepad++](https://notepad-plus-plus.org/) - Free. Notably lightweight on system resources.
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Free. Not VS Code... more like it's "big brother".
+## Color Themes for IDE's
+- [Rainglow](https://rainglow.io/)
 ## Git Graphical Interfaces
 - [Fork](https://git-fork.com/) - Free
 - [Kraken](https://www.gitkraken.com/) - Free, pro version available
@@ -94,3 +96,6 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [SourceTree](https://www.sourcetreeapp.com/) - Free
 - [GitFiend](https://gitfiend.com/) - Free
 - [Sublime Merge](https://www.sublimemerge.com/) - Paid with unlimited free trial
+## VR Third-Party Software/Support TOols
+- [SideQuest](https://sidequestvr.com/#/) - Install games onto the quest from .apk files, plus an unofficial storefront
+- [Itch.io](https://itch.io/) - Indie Game Storefront, has some VR titles.
