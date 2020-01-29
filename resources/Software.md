@@ -26,7 +26,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Cinema4D](https://www.maxon.net) - Paid
 - [Sketchup](https://www.sketchup.com) - Paid
 - [MeshMixer](http://www.meshmixer.com/) - Free
-- [MagicaVoxel](https://ephtracy.github.io/) - Free
+- [MagicaVoxel](https://ephtracy.github.io/) - Free, voxel-based, very easy to use.
 - [Spritestack.io](https://spritestack.io/) - Free, Premium Tier
 - [AssetForge](https://kenney.itch.io/assetforge) - Paid
 - [MakeHuman](http://www.makehumancommunity.org/) - Free
@@ -35,15 +35,19 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 ## 3D Modeling (In VR)
 - [Google Blocks](https://arvr.google.com/blocks/) - Free
 - [Oculus Medium](https://www.oculus.com/medium/) - Free
-- [Oculus Quill](https://quill.fb.com/)
 - [Microsoft Maquette](https://www.maquette.ms/) - Free
 - [Gravity Sketch](https://www.gravitysketch.com/) - Paid
 - [Mesh Maker VR](https://www.wearvr.com/apps/mesh-maker-vr) - Free
+- [Kodon](https://store.steampowered.com/app/479010/Kodon/) - Paid
+- [Masterpiece VR](https://www.masterpiecevr.com/) - Paid
 ## 3D Modeling (Sculpting Workflow)
 - [zBrush](http://pixologic.com/zbrush/features/overview/) - Paid
-- [Oculus Medium](https://www.oculus.com/medium/) - Free
 - [PolyBrush (in Unity)](https://unity3d.com/unity/features/worldbuilding/polybrush) - Free
-- (Blender and Maya (and a few others) have built in sculpting workflows as well)
+- **Desktop Software**: Blender, Cinema4D, and Maya have built in sculpting workflow tools.
+- **VR Software**: Medium, Kodon, and Masterpiece VR primarily use sculpting workflows.
+## Painting/Animation in VR
+- [Quill](https://quill.fb.com/) - Free, Oculus
+- [Tilt Brush](https://www.tiltbrush.com/) - Paid, Cross Platform
 ## 3D Model Processing/Converting
 - [MeshLab](http://www.meshlab.net/)  -Free
 ## Texture Map Creation/Editing
@@ -65,7 +69,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 ## AR Creation and Editing
 - [Spark AR by Facebook](https://sparkar.facebook.com/ar-studio)
 - [Adobe Aero (ios)](https://helpx.adobe.com/aero/get-started.html)
-- [Lens Studio by Snapchast](https://lensstudio.snapchat.com/)
+- [Lens Studio by Snapchat](https://lensstudio.snapchat.com/)
 ## Audio Editing (non-music focused)
 - [Audacity](https://www.audacityteam.org/) - Free, Open Source
 - [Pro Tools](https://www.avid.com/pro-tools) - Paid, Free version
