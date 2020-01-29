@@ -87,4 +87,4 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Kraken](https://www.gitkraken.com/) - Free, pro version available
 - [GitHub Desktop](https://desktop.github.com/) - Free
 - [SourceTree](https://www.sourcetreeapp.com/) - Free
-- [GitFiend](https://gitfiend.com/)
+- [GitFiend](https://gitfiend.com/) - Free
