@@ -8,7 +8,6 @@ parent: Resources
 
 A non-exhaustive list of tools for creating VR/AR content. In no particular order. Any editorialization to be taken with a grain of salt.  
 
-
 ## Game Engines
 - [Unity](https://unity.com/) - Free to use
 - [Unreal Engine](https://www.unrealengine.com) - Free to use
@@ -82,9 +81,16 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Explodomatica](http://smcameron.github.io/explodomatica/) - Free
 - [rFXGen](https://raylibtech.itch.io/rfxgen) - Free
 - [ChipTone](http://sfbgames.com/chiptone/) - Free
+## Code Editing IDE's with Plugin/Package Support
+- [VS Code](https://code.visualstudio.com/) - Free, cross platform
+- [Atom](https://atom.io/) - Free, cross platform
+- [Sublime Text](https://www.sublimetext.com/) - "Free", Paid with unlimted free trial
+- [Notepad++](https://notepad-plus-plus.org/) - Free. Notably lightweight on system resources.
+- [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Free. Not VS Code... more like it's "big brother".
 ## Git Graphical Interfaces
 - [Fork](https://git-fork.com/) - Free
 - [Kraken](https://www.gitkraken.com/) - Free, pro version available
 - [GitHub Desktop](https://desktop.github.com/) - Free
 - [SourceTree](https://www.sourcetreeapp.com/) - Free
 - [GitFiend](https://gitfiend.com/) - Free
+- [Sublime Merge](https://www.sublimemerge.com/) - Paid with unlimited free trial
