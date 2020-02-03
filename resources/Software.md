@@ -50,13 +50,16 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Tilt Brush](https://www.tiltbrush.com/) - Paid, Cross Platform
 ## 3D Model Processing/Converting
 - [MeshLab](http://www.meshlab.net/)  -Free
-## Texture Map Creation/Editing
-- [Substance Designer](https://www.substance3d.com/products/substance-designer) - Paid
+## Texture Map Creation (Procedural)
+- [Substance Designer](https://www.substance3d.com/products/substance-designer) - Paid. Industry standard.
+- [Material Maker](https://rodzilla.itch.io/material-maker) - Free, Open Source
+- [Quixel Mixer](https://quixel.com/) - Free: Quixel was recently bought by Epic, use Epic Games account to log in.
+## Texture Map Creation (From Images/Utilities)
+- [Materialize](http://www.boundingboxsoftware.com/materialize/index.php) - Free
+- [ShaderMap](https://shadermap.com/home/) - Paid/Free versions 
 - [CrazyBump](http://www.crazybump.com/) - Paid
 - [AwesomeBump](https://github.com/kmkolasinski/AwesomeBump) - Free, Open Source
-- [ShaderMap](https://shadermap.com/home/) - Paid
-- [Materialize](http://www.boundingboxsoftware.com/materialize/index.php) - Free
-- [xNormal](https://xnormal.net/) - Free
+- [xNormal](https://xnormal.net/) - Free (highPoly -> lowPoly Models)
 - [Laigter (normals for 2D sprites)](https://azagaya.itch.io/laigter) - Free (pay what you want)
 ## 3D Model Auto-Rigging
 - [Mixamo](https://www.mixamo.com/#/) - Free (Adobe account required)
