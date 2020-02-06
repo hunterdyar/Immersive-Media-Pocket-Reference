@@ -61,6 +61,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [AwesomeBump](https://github.com/kmkolasinski/AwesomeBump) - Free, Open Source
 - [xNormal](https://xnormal.net/) - Free (highPoly -> lowPoly Models)
 - [Laigter (normals for 2D sprites)](https://azagaya.itch.io/laigter) - Free (pay what you want)
+- [Normal Map Online](http://cpetry.github.io/NormalMap-Online/) - Free, online, open source
 ## 3D Model Auto-Rigging
 - [Mixamo](https://www.mixamo.com/#/) - Free (Adobe account required)
 - [Auto-Rig Pro (Blender)](https://blendermarket.com/products/auto-rig-pro) - Paid
