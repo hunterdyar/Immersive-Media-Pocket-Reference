@@ -26,3 +26,5 @@ A texture can blend seamlessly but it doesn't matter if it always looks like it'
 ## Skew and Perspective
 If your texture is of something patterned, like brick, making the texture seamless is going to be a challenge. The first step is making sure your straight lines are straight. Use the Skew and Perspective tools under the Edit menu in Photoshop, or Filter>Distory>Perspective in Affinity.  For bricks and such tiled textures, it's important to remember that when you are cropping the image, the bricks are the right size so that after you blend the edges together there aren't any super long or tall or weirdly shaped bricks.
 
+## Dodge and Burn
+Another step you may want to take before you run the offset is to dodge and burn your image. This just means to brighten and darken parts of it. There are dodge and burn tools in the toolbar. Use a big soft brush with a low opacity, and try to create a uniform brightness. I tend to use a brightness adjustment layer and edit on the mask to do this kind of work, so I can tweak the adjustment layer properties or opacity after the fact.
