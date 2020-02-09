@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Creating Seamless Textures 
-nav_order: 1
+nav_order: 2
 parent: Guides
 --
 # Strategies for seamless Textures
