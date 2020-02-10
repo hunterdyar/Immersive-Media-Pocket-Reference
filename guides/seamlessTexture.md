@@ -3,7 +3,7 @@ layout: default
 title: Creating Seamless Textures 
 nav_order: 2
 parent: Guides
---
+---
 # Strategies for seamless Textures
 Nothing about any of the following strategies is unique to Adobe Photoshop, they use fairly fundamental features that most modern image editing software packages should have.
 

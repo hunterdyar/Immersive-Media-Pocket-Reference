@@ -49,7 +49,14 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Quill](https://quill.fb.com/) - Free, Oculus
 - [Tilt Brush](https://www.tiltbrush.com/) - Paid, Cross Platform
 ## 3D Model Processing/Converting
-- [MeshLab](http://www.meshlab.net/)  -Free
+- [MeshLab](http://www.meshlab.net/) - Free
+## Image Editing
+- [Adobe Photoshop](https://photoshop.com/) - Paid, Recurring subscription
+- [Affinity Photo](https://affinity.serif.com/en-us/photo/) - Paid, One Time
+- [GIMP](https://www.gimp.org/) - Free, Open source
+- [Paint.NET](https://www.getpaint.net/) - Free, Windows Only
+- [Pixelmator](https://www.pixelmator.com/pro/) - Paid, Mac/iPad Only
+- [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) - Free, Mobile/Android
 ## Texture Map Creation (Procedural)
 - [Substance Designer](https://www.substance3d.com/products/substance-designer) - Paid. Industry standard.
 - [Material Maker](https://rodzilla.itch.io/material-maker) - Free, Open Source
