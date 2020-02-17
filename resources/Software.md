@@ -48,8 +48,10 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 ## Painting/Animation in VR
 - [Quill](https://quill.fb.com/) - Free, Oculus
 - [Tilt Brush](https://www.tiltbrush.com/) - Paid, Cross Platform
-## 3D Model Processing/Converting
-- [MeshLab](http://www.meshlab.net/) - Free
+## 3D Modeling Utility/Processing/Converting
+- [MeshLab](http://www.meshlab.net/) - Free.
+- [fSpy](https://fspy.io) - Free. Calibrate camera to reference images.
+- [fSpy Blender Add-On](https://github.com/stuffmatic/fSpy/releases) - Open Source
 ## Image Editing
 - [Adobe Photoshop](https://photoshop.com/) - Paid, Recurring subscription
 - [Affinity Photo](https://affinity.serif.com/en-us/photo/) - Paid, One Time
