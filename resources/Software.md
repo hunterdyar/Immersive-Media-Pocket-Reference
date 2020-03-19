@@ -40,6 +40,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Mesh Maker VR](https://www.wearvr.com/apps/mesh-maker-vr) - Free
 - [Kodon](https://store.steampowered.com/app/479010/Kodon/) - Paid
 - [Masterpiece VR](https://www.masterpiecevr.com/) - Paid
+- [VoxVR](https://www.voxvr.net/) - Free
 ## 3D Modeling (Sculpting Workflow)
 - [zBrush](http://pixologic.com/zbrush/features/overview/) - Paid
 - [PolyBrush (in Unity)](https://unity3d.com/unity/features/worldbuilding/polybrush) - Free
