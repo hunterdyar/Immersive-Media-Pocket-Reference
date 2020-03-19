@@ -6,14 +6,17 @@ parent: Resources
 ---
 # Software
 
+Also consider spending time to browse [thise list](http://everest-pipkin.com/teaching/tools.html) of Open Source, Experimental, and tiny tools, collected by Everest Pipkin. 
+
 A non-exhaustive list of tools for creating VR/AR content. In no particular order. Any editorialization to be taken with a grain of salt.  
 
 ## Game Engines
-- [Unity](https://unity.com/) - Free to use
-- [Unreal Engine](https://www.unrealengine.com) - Free to use
-- [Godot](https://godotengine.org/) - Free, Open Source
+- [Unity](https://unity.com/) - Free to use, C#
+- [Unreal Engine](https://www.unrealengine.com) - Free to use, Blueprints/C++
+- [Godot](https://godotengine.org/) - Free, Open Source, GDScript, C#, C++
 - [Amazon Lumberyard](https://aws.amazon.com/lumberyard/)
 - [PlayCanvas](https://playcanvas.com/) - HTML5/WebVR
+- [LÖVR](https://lovr.org/) - Open source, lua
 ## WebVR Frameworks
 - [A-Frame](https://aframe.io/)
 - [Primrose](https://www.primrosevr.com)
@@ -32,6 +35,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [MakeHuman](http://www.makehumancommunity.org/) - Free
 - [ProBuilder (in Unity)](https://unity3d.com/unity/features/worldbuilding/probuilder) - Free
 - [Rhino3D](https://www.rhino3d.com/) - Paid
+- [Figuro](https://www.figuro.io/) - Free, in browser
 ## 3D Modeling (In VR)
 - [Google Blocks](https://arvr.google.com/blocks/) - Free
 - [Oculus Medium](https://www.oculus.com/medium/) - Free
@@ -49,10 +53,19 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 ## Painting/Animation in VR
 - [Quill](https://quill.fb.com/) - Free, Oculus
 - [Tilt Brush](https://www.tiltbrush.com/) - Paid, Cross Platform
+## Digital Painting programs
+- [JSPaint](https://jspaint.app) - MSPaint in the browser
+- [Krita](https://krita.org/en/)
+- [GIMP](https://www.gimp.org/)
+## Vector Art
+- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)
+- [Dotgrid](https://hundredrabbits.itch.io/dotgrid)
+- [Inkscape](https://inkscape.org/)
 ## 3D Modeling Utility/Processing/Converting
 - [MeshLab](http://www.meshlab.net/) - Free.
 - [fSpy](https://fspy.io) - Free. Calibrate camera to reference images.
 - [fSpy Blender Add-On](https://github.com/stuffmatic/fSpy/releases) - Open Source
+- [Meshmixer](http://www.meshmixer.com/) - Free
 ## Image Editing
 - [Adobe Photoshop](https://photoshop.com/) - Paid, Recurring subscription
 - [Affinity Photo](https://affinity.serif.com/en-us/photo/) - Paid, One Time
@@ -72,6 +85,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [xNormal](https://xnormal.net/) - Free (highPoly -> lowPoly Models)
 - [Laigter (normals for 2D sprites)](https://azagaya.itch.io/laigter) - Free (pay what you want)
 - [Normal Map Online](http://cpetry.github.io/NormalMap-Online/) - Free, online, open source
+- [HME - Height Map Editor](http://hme.sourceforge.net/)
 ## 3D Model Auto-Rigging
 - [Mixamo](https://www.mixamo.com/#/) - Free (Adobe account required)
 - [Auto-Rig Pro (Blender)](https://blendermarket.com/products/auto-rig-pro) - Paid
@@ -95,15 +109,29 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 ## Sound Effect Creation
 - [BFXR](https://www.bfxr.net/) - Free
 - [SFXR](https://stammel.net/projekte/sfxr/app/) - Free
+- [rFXGen](https://raylibtech.itch.io/rfxgen) - Free, based on sfxr
 - [LabChirp](http://labbed.net/software/labchirp/) - Free
 - [Explodomatica](http://smcameron.github.io/explodomatica/) - Free
 - [rFXGen](https://raylibtech.itch.io/rfxgen) - Free
 - [ChipTone](http://sfbgames.com/chiptone/) - Free
+## Music Composition
+- [Bosca Ceoil](https://terrycavanagh.itch.io/bosca-ceoil)
+- [Aria Maestosa](https://ariamaestosa.github.io/ariamaestosa/docs/index.html)
+- [Ribs](https://hvoyaaudio.itch.io/ribs)
+- [Hydrogen](http://hydrogen-music.org)
+- [Best](https://beast.testbit.eu/)
+## Text Editors
+- [Textreme](https://beast.testbit.eu/)
+- [Left](https://hundredrabbits.itch.io/left)
+- [Markdeep](http://casual-effects.com/markdeep/)
+- [Mark Text](https://marktext.app/) - Simple, fast, markdown editor
 ## Code Editing IDE's with Plugin/Package Support
+- [Jetbrains Rider](https://www.jetbrains.com/rider/) - Paid, Free for Students, exceptional Unity features/support
 - [VS Code](https://code.visualstudio.com/) - Free, cross platform
 - [Atom](https://atom.io/) - Free, cross platform
 - [Sublime Text](https://www.sublimetext.com/) - "Free", Paid with unlimted free trial
 - [Notepad++](https://notepad-plus-plus.org/) - Free. Notably lightweight on system resources.
+- [Geany](https://www.geany.org/) - Free, lightweight
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Free. Not VS Code... more like it's "big brother".
 ## Color Themes for IDE's
 - [Rainglow](https://rainglow.io/)
