@@ -44,7 +44,7 @@ You can un-check the make-up gain if you want a better before/after sense of wha
 Compression is so important for human voice. 
 
 # Step 8 – Equalization
-Select all and go Effects>Equalization, and then look at some of the preset curves. Bass Cut, Treble Cut, Walkie-talkie.
+Select all and go Effects>Equalization, (Effects>Filter EQ in 2.3.3 and newer) and then look at some of the preset curves. Bass Cut, Treble Cut, Walkie-talkie.
 We want to cut out the extremes of our bass and the extremes of our high-frequency signals, without affecting the recording proper. This is basically another form of noise reduction, we are getting rid of frequencies outside the range of human voice.
 
 So draw, or select “Graphic” and use the sliders, some drops in the curve at the extremes edges, then select preview to make sure you aren’t doing any damage to the recording. It’s easy to do this “too far”, and if we do it right, the voice shouldn’t sound different. So… go easy. You don’t need to drop frequeneces to NOTHING, just dim them down.
