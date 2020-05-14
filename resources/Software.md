@@ -137,6 +137,12 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 
 - [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) - Free, Mobile/Android
   
+  ## Image Viewer
+
+- [Irfanview](https://www.irfanview.com/) - Free, fast. Can zoom in and proof easier than built into windows.
+
+- [DJV](https://darbyjohnston.github.io/DJV/) - Free, Open Source. Lets you preview an image sequence as a movie.
+  
   ## Texture Map Creation (Procedural)
 
 - [Substance Designer](https://www.substance3d.com/products/substance-designer) - Paid. Industry standard.
@@ -180,7 +186,9 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [MeshRoom](https://github.com/alicevision/meshroom) - Free, Open Source
   
   ## Video Utility
+
 - [MpegStreamclip](http://www.squared5.com/svideo/) - Video converter, Free
+
 - [LiceCap](https://www.cockos.com/licecap/) - Gif From Screen Section, Free
   
   ## AR Creation and Editing
@@ -255,17 +263,25 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 
 - [Sublime Text](https://www.sublimetext.com/) - "Free", Paid with unlimted free trial
 
-- [Notepad++](https://notepad-plus-plus.org/) - Free. Notably lightweight on system resources.
+- [Notepad++](https://notepad-plus-plus.org/) - Free. Notably lightweight on system resources
 
 - [Geany](https://www.geany.org/) - Free, lightweight
 
-- [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Free. Not VS Code... more like it's "big brother".
+- [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Free. Not VS Code... more like it's "big brother". Often installed, it helps manage C/C++/C# compiling/support libraries/build chains.
+
+- [CLion](https://www.jetbrains.com/clion) - Basically Rider but for C and C++ (i.e.: Unreal). Paid, Free for students.
   
   ## Color Themes for IDE's
 
-- [Rainglow](https://rainglow.io/)
+- [Rainglow](https://rainglow.io/) (My personal favorite, earthsung, is in this collection).
+
+- [Dracula](https://draculatheme.com/) (Also check out fan-favoriate, Darcula. a darker version of this theme)
+
+- [Grubbox](https://github.com/morhetz/gruvbox). Original is for VIM, Been ported to [Jetbrains Rider/CLion](https://plugins.jetbrains.com/plugin/12310-gruvbox-theme), [VSCode](https://github.com/jdinhify/vscode-theme-gruvbox), [Sublime](https://github.com/briles/gruvbox), etc. Just search for it
   
   ## Git Graphical Interfaces
+
+- 
 
 - [Fork](https://git-fork.com/) - Free
 
@@ -283,4 +299,4 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 
 - [SideQuest](https://sidequestvr.com/#/) - Install games onto the quest from .apk files, plus an unofficial storefront
 
-- [Itch.io](https://itch.io/) - Indie Game Storefront, has some VR titles.
+- [Itch.io](https://itch.io/) - Indie Game Storefront, has some VR titles
