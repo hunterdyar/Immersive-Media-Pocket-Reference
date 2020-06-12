@@ -242,6 +242,20 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Hydrogen](http://hydrogen-music.org)
 
 - [Best](https://beast.testbit.eu/)
+
+## Note Taking
+
+*I recommend plaintext for digital notes. More generally, any open format that isn't tied to a particular piece of software of workflow. Notes should last forever. Which is longer than software usually lasts.*
+
+- [Obsidian](https://obsidian.md/features) - Notes in plaintext and markdown formatting. Notable support of backlinks and a graph view of linked notes, custom themes, voice memos, daily notes/templates, and keyboard only support. 
+
+- [Simplenote](https://simplenote.com/) - Simple plaintext/markdwown notes with universal platform support and very competent syncing and backups.
+
+- [Standard Notes](https://standardnotes.org/) - Free, Open source, encrypted plaintext notes with syncing.
+
+- [Workflowy](https://workflowy.com/) - Infinite Hierarchy/nested document structure. Extremely flexible with capable power features. Great for notes, todos, organization, mood boards, and more.
+
+- [Dynalist](https://dynalist.io/) - Workflowly competitor. Better-but-still-not-great support for inline images. Pro version has automatic daily backup.
   
   ## Text Editors
 
@@ -269,7 +283,7 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com/) - Free. Not VS Code... more like it's "big brother". Often installed, it helps manage C/C++/C# compiling/support libraries/build chains.
 
-- [CLion](https://www.jetbrains.com/clion) - Basically Rider but for C and C++ (i.e.: Unreal). Paid, Free for students.
+- [CLion](https://www.jetbrains.com/clion) - Basically Rider but for C and C++ (i.e.: [Unreal](https://blog.jetbrains.com/clion/2016/10/clion-and-ue4/)). Paid, Free for students.
   
   ## Color Themes for IDE's
 
@@ -280,8 +294,6 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
 - [Grubbox](https://github.com/morhetz/gruvbox). Original is for VIM, Been ported to [Jetbrains Rider/CLion](https://plugins.jetbrains.com/plugin/12310-gruvbox-theme), [VSCode](https://github.com/jdinhify/vscode-theme-gruvbox), [Sublime](https://github.com/briles/gruvbox), etc. Just search for it
   
   ## Git Graphical Interfaces
-
-- 
 
 - [Fork](https://git-fork.com/) - Free
 
@@ -297,6 +309,6 @@ A non-exhaustive list of tools for creating VR/AR content. In no particular orde
   
   ## VR Third-Party Software/Support TOols
 
-- [SideQuest](https://sidequestvr.com/#/) - Install games onto the quest from .apk files, plus an unofficial storefront
+- [SideQuest](https://sidequestvr.com/#/) - Install games onto the quest from .apk files, plus an unofficial storefront 
 
 - [Itch.io](https://itch.io/) - Indie Game Storefront, has some VR titles
