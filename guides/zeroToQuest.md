@@ -56,3 +56,4 @@ If you want to use Hand Tracking, which is not currently supported with the abov
 4. When you import it, the integration will have upgrade and restart the editor. I don't know why. It's a pain.
 5. Go to Edit > Project Settings > Player, and scroll down to XR Settings. Check "Virtual Reality Supported".
 6. To use Oculus Link and get in-editor (play mode) testing support, you may need to import the "Oculus Desktop" package from the package manager.
+7. Look at sample scenes and use provided prefabs to get started.
