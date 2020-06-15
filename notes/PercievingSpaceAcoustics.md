@@ -82,6 +82,12 @@ One way to simulate this effect is not to simulate it digitally at all. Instead,
 ### Reverberation, Signature and Tone
 Every environment sounds different. Sound travels directly from the source to the listener. Sound also travels all around the environment, where it bounces off of things ("picking up" new acoustic properties) and then traveling to the listener. It took longer for these sounds to reach the listener than the direct. We call these indirect sounds "reverberation". 
 
+
+<audio src="sounds/reverbExamples.mp3" controls> </audio>
+
+*Mono Recording with Examples of Reverb. Reverb added digitally*.
+
+
 Reverberation and room tone are very important for VR, but this is not the space for a detailed discussion or investigation. In regards to localization, reverberation can be localized just like direct sounds can. Often with less precision. Reverb gives us a general sense of a room. As we turn around in it, reverb is a part of what allows us to place ourselves in the room. This technique, taken to a precise extreme, could be called echolocation. [Humans have, with practice](https://en.wikipedia.org/wiki/Human_echolocation), learned to echolocate. For most of us, the awareness of reverberation as it relates to our location is extremely vague, and generally just cues us into rough orientation. 
 
 When it comes to design, reverb is far more important in helping inform the user into architectural properties of the environment. Particularly scale and material. A small underground cave will sound different than a large cavern, which will sound different than a wooden hut.   
