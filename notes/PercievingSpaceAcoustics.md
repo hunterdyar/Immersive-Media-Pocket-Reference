@@ -22,12 +22,14 @@ Never underestimate sound design.
 
 Everything around us affect the way things sound
 
-> Scientists studying hearing aids in the 50’s came to an important conclusion: It is more comfortable to listen to somebody when we can accurately locate them auditorily. (Raymond Carhart)
+> Scientists studying hearing aids in the 50’s came to an important conclusion: It is more comfortable to listen to somebody when we can accurately locate them auditorily. ([Raymond Carhart](https://pubs.asha.org/doi/abs/10.1044/jshd.2301.42))
 
 Design wise, consider that it is more comfortable not just to listen to somebody, but to interact with anything when the interaction is reinforced auditorily, and not just visually. And, outside of interactions, for en environment to impact us - for us to *feel* the space, to achieve that sense of presence in VR, we need environments to sound appropriate. 
 
 ## Sound Localization - Why
 "Localization" is identifying the location of the source of a sound, specifically or generally. We are not pin-point accurate, but even broad/blurry understandings can be helpful!
+
+While I will be discussing the specifics of determining the location of an audio source, keep in mind that this is information is used to understand all sorts of properties about an environment. Directly, it informs our understanding of a space's scale, shape, the materials it's made of. Indirectly, it informs where one may be able to go, if one is alone or with others, how they should feel about a space, how that space is connected to it's surrounding environment, and more.
 
 For example, even the most broad of understandings can help locate ourselves within an environment and help us understand our location when we move or turn. Localization is a process relative to the listener. We can use sounds to locate ourselves, not just locate the sounds position.
 
