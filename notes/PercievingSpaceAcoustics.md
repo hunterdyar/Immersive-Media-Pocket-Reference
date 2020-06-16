@@ -64,12 +64,26 @@ Sound above or below us is more challenging to locate, as wll as sound from high
 > **BONUS THINKS**: What makes a sound, as we colloquially describe and think about it, "high" or "low" in pitch? What makes it's pitch "normal"? What informs this categorization? Could our ability to localize sounds in certain frequencies more easily affect how we feel or think about the sound? Does our ability to localize a sound affect how comfortable it is to listen to that sound?
 
 ### Head Masking Effect/Head Shadow Effect
-The difference a sound has between our ears can get muffled by our head. Sound from different directions will get muffled, and we use this information to inform our localization.
+The difference a sound has between our ears can get muffled by our head. Sound from different directions will get muffled in different ways to our different ears. We use this information to inform our localization.
 
-By "muffled", it will generally have a variety of different audio characteristics/frequency responses.
+By "muffled", it will generally have a variety of different audio characteristics/frequency responses in addition to simply being not as loud.
+
+[*Contribution of Head Shadow and Pinna Cues to Chronic Monaural Sound Localization*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6729291/) by Marc M. Van Wanrooij, A. John Van Opstal. 
+
+[*Directionality and the head-shadow effect*](https://journals.lww.com/thehearingjournal/Fulltext/2003/04000/Directionality_and_the_head_shadow_effect.8.aspx) by Cherish Oberzut, Laurel Olson
 
 ### Ear Shape
 The shape of our ear matters. You know, ears. They have that little flap the pinnae, the ridges, all that weird stuff. These introduce slight differences in frequency response to a sound depending on the angle the sound entered our ear from. 
+
+<div class="sketchfab-embed-wrapper">
+    <iframe title="A 3D model" width="640" height="480" src="https://sketchfab.com/models/c5a0e016fe23493e912a34487251396c/embed?autostart=1&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+        <a href="https://sketchfab.com/3d-models/auditory-system-ear-biology-c5a0e016fe23493e912a34487251396c?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Auditory system (Ear - Biology)</a>
+        by <a href="https://sketchfab.com/kifir?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">KIFIR</a>
+        on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+    </p>
+</div>
+
 
 Sound coming from the front will travel into our ear a different way than sound coming from the side, and that difference will affect the sound. We can use the differences to localize the audio's source.
 
@@ -78,6 +92,9 @@ Sound coming from the front will travel into our ear a different way than sound 
 One way to simulate this effect is not to simulate it digitally at all. Instead, just record with a microphone that also has the same shape. In other words: a microphone with weird rubber ears. This is called a **binaural** microphone. Listening to these recordings with headphones can be quite remarkable. Compared the effect to listening without headphones.
 
 ![Binaural mic made by 3DIO](images/3DioBinauralMic.png)
+
+*Headphones are neccesary to listen to the following recording.*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IUDTlvagjJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Reverberation, Signature and Tone
 Every environment sounds different. Sound travels directly from the source to the listener. Sound also travels all around the environment, where it bounces off of things ("picking up" new acoustic properties) and then traveling to the listener. It took longer for these sounds to reach the listener than the direct. We call these indirect sounds "reverberation". 
