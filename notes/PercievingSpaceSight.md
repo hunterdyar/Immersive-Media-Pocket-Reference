@@ -15,17 +15,24 @@ We must understand many of the tools and tricks that our brains use to correctly
 ## We See Depth
 Understanding and perceiving our space is largely a process of understanding depth. We can only look in one direction at a time, and we really only look at one *thing* at a time.
 
-Eyes receive light projected through their lens onto photo receptors in the back of the eye. These photoreceptors are not depth sensors. They detect light and color. They don't know anything direct about how far away that light came from. Light simply doesn't work like that.
+Eyes receive light projected through their lens onto photo receptors in the back of the eye. These photoreceptors are not depth sensors. They detect light and color. They don't know anything direct about how far away any ray of light came from. Our brains have to deduce depth from a variety of cues, merging them all together to an understanding of space. This page covers most depth cues the human vision system uses. 
 
 ![Eye Diagram by Chris Sullivan](images/eyeDiagram.jpg)
 *Eye Diagram by Chris Sullivan. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eye-Diagram-Cartoon-Eyeball-2019_02.jpg).* [Here](https://commons.wikimedia.org/wiki/File:Eye-Diagram-Cartoon-Eyeball-2019_04.jpg) is a version with labels.
 
-There is much more to talk about when it comes to vision. This page will focus on the understanding of depth, which is the principle tool used to understand ("assemble a mental model") of an environment.
+There is much more to talk about when it comes to vision and how we construct a mental model ("understanding") of a space. This page will focus on the understanding of depth, which is the principle tool used in this process.
 
 ### Stereoscopy
-Comparing The difference between our two eyes.
+Comparing The difference between the image received by our eyes.
 
 Consider that for objects that are very far away, there is almost no difference between the image projected onto both of our eyes. Stereo vision has limits to it's accuracy, and that accuracy is directly related to distance.
+
+![Stereo Image](images/stereocard.jpg)
+A stereo print. From the [NYPL archive](https://digitalcollections.nypl.org/items/510d47e0-914e-a3d9-e040-e00a18064a99).
+
+![Stereo Image animated](images/stereogramAnimated.gif)
+
+The above image animated using the NYPL [Stereogranimator](http://stereo.nypl.org/) tool.
 
 ### Convergence
 We are aware of our eye muscles, and the angle they are looking. Go cross-eyed. Now look very far away. As we focus on different objects at different distances, our eyes are angled at different amounts (from cross-eyed to parallel). We feel this angle, and thus have an idea of how far away we are looking. 
