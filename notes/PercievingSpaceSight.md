@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: How To Perceive Space - Vision
 nav_order: 4
 parent: Design Notes

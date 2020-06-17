@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Material From Image Overview 
 nav_order: 3
 parent: Guides

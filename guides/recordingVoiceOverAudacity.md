@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Recording A Voice-Over in Audacity
 nav_order: 1
 parent: Guides

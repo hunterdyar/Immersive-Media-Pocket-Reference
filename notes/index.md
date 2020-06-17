@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Design Notes
 nav_order: 2
 has_children: true

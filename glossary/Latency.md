@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Latency
 nav_order: 2
 parent: Glossary

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Perspective Distortion and Projection
 nav_order: 1
 parent: Design Notes

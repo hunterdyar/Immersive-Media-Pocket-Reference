@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Drift
 nav_order: 3
 parent: Glossary

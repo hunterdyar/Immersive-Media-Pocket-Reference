@@ -3,7 +3,7 @@
 title: Immersive Media Pocket Reference
 description: A cheatsheet for VR/AR jargon.
 
-remote_theme: karloespiritu/BlackDoc
+remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
 
 #Plugins

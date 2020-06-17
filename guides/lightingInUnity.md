@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Lighting In Unity Overview 
 nav_order: 3
 parent: Guides

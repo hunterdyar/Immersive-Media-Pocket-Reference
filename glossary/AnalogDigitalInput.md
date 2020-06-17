@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Analog Vs. Digital Input
 nav_order: 10
 parent: Glossary

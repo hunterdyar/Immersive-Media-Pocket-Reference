@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: TomatoPresense
 nav_order: 3
 parent: Glossary

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Software
 nav_order: 2
 parent: Resources
