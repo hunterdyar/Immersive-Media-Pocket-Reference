@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Creating Seamless Textures 
 nav_order: 2
 parent: Guides

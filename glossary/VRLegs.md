@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: VR Legs
 nav_order: 6
 parent: Glossary

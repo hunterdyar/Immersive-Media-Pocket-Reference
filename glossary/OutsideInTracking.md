@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Outside-In Tracking
 nav_order: 3
 parent: Tracking

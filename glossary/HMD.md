@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: HMD - Head Mounted Display
 nav_order: 1
 parent: Glossary

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: How To Perceive Space - Acoustics
 nav_order: 3
 parent: Design Notes

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 3DOF
 nav_order: 2
 parent: Glossary

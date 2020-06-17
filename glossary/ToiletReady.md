@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Toilet Ready
 nav_order: 1
 parent: Glossary

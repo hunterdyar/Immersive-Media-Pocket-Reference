@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Inside-Out Tracking
 nav_order: 3
 parent: Tracking

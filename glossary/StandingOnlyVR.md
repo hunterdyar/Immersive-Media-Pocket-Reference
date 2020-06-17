@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Standing Only or Seated
 nav_order: 1
 parent: Glossary

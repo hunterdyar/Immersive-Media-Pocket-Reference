@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Assets
 nav_order: 3
 parent: Resources

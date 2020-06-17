@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: From Zero To Oculus Quest
 nav_order: 3
 parent: Guides
