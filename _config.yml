@@ -1,15 +1,41 @@
 
 #Settings
 title: Immersive Media Pocket Reference
-description: A cheatsheet for VR/AR jargon.
+description: A resource for XR design.
 
-remote_theme: pmarsceill/just-the-docs
-color_scheme: "dark"
+remote_theme: daviddarnes/alembic
 
-#Plugins
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+# Set plugins
 plugins:
-  - jekyll-sitemap
-  
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+- jekyll-remote-theme
 
-#footer content
-footer_content: "by Hunter Dyar."
+# Header Nav
+navigation_header:
+- title: Home
+  url: /
+- title: Glossary
+  url: /glossary/
+- title: Resources
+url: /resources/
+- title: Notes
+  url: /notes/
+- title: Guides
+  url: /Guides/
+
+# Footer nav
+navigation_footer:
+- title: Back to top
+  url: "#top"
