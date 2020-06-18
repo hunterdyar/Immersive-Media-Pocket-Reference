@@ -1,12 +1,12 @@
-# Theme
-remote_theme: "daviddarnes/alembic"
 
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
+#Settings
+title: Immersive Media Pocket Reference
+description: A cheatsheet for VR/AR jargon.
 
-# Set plugins
+remote_theme: daviddarnes/alembic
+color_scheme: "dark"
+
+#Plugins
 plugins:
 - jekyll-sitemap
 - jekyll-mentions
@@ -18,24 +18,5 @@ plugins:
 - jemoji
 - jekyll-remote-theme
 
-# Site Settings
-title: Immersive Media Pocket Reference
-description: A resource for XR design.
-
-# Header Nav
-navigation_header:
-- title: Home
-  url: /
-- title: Glossary
-  url: /glossary/
-- title: Resources
-url: /resources/
-- title: Notes
-  url: /notes/
-- title: Guides
-  url: /Guides/
-
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
+#footer content
+footer_content: "by Hunter Dyar."
