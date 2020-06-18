@@ -6,7 +6,7 @@ parent: Design Notes
 ---
 
 # How To Perceive Space - Vision
-First, one must attempt to understand the degree to which our understanding of our space is not one of merely looking at the space. There is a phenomenal degree of what we might call "processing". We do a lot of work to go from looking at an environment to accurately understanding the world around us. What we see is not what we get. 
+First, one must comprehend that an understanding of space does not come from merely looking at the space. There is a phenomenal degree of what we might call "processing". We do a lot of mental work to go from what our sensors (eyes) report to an accurate understanding the world around us. What we see is not what we get. 
 
 We must understand many of the tools and tricks that our brains use to correctly perceive space in order to better present space. 
 
@@ -15,12 +15,12 @@ We must understand many of the tools and tricks that our brains use to correctly
 ## We See Depth
 Understanding and perceiving our space is largely a process of understanding depth. We can only look in one direction at a time, and we really only look at one *thing* at a time.
 
-Eyes receive light projected through their lens onto photo receptors in the back of the eye. These photoreceptors are not depth sensors. They detect light and color. They don't know anything direct about how far away any ray of light came from. Our brains have to deduce depth from a variety of cues, merging them all together to an understanding of space. This page covers most depth cues the human vision system uses. 
+Eyes receive light projected through a lens in the eye onto photo receptors in the back of the eye. These photoreceptors are not depth sensors. They detect light and color. They don't know anything direct about how far away any ray of light came from. Our brains have to deduce depth from a variety of cues, merging them all together to an understanding of space. This page covers many depth cues the human vision system uses. 
 
 ![Eye Diagram by Chris Sullivan](images/eyeDiagram.jpg)
 *Eye Diagram by Chris Sullivan. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eye-Diagram-Cartoon-Eyeball-2019_02.jpg).* [Here](https://commons.wikimedia.org/wiki/File:Eye-Diagram-Cartoon-Eyeball-2019_04.jpg) is a version with labels.
 
-There is much more to talk about when it comes to vision and how we construct a mental model ("understanding") of a space. This page will focus on the understanding of depth, which is the principle tool used in this process.
+There is much more to talk about when it comes to vision and how we construct a mental model ("understanding") of a space. This page will focus on the understanding of depth, which is the principle tool used in this process. Some "next steps" would be to study optical illusions, emotional impacts of certain spaces, and architecture.
 
 ### Stereoscopy
 Comparing The difference between the image received by our eyes.
@@ -35,9 +35,9 @@ A stereo print. From the [NYPL archive](https://digitalcollections.nypl.org/item
 The above image animated using the NYPL [Stereogranimator](http://stereo.nypl.org/) tool.
 
 ### Convergence
-We are aware of our eye muscles, and the angle they are looking. Go cross-eyed. Now look very far away. As we focus on different objects at different distances, our eyes are angled at different amounts (from cross-eyed to parallel). We feel this angle, and thus have an idea of how far away we are looking. 
+We are aware of our eye muscles, and the angle they are looking: Go cross-eyed. Now look very far away. As we focus on different objects at different distances, our eyes are angled at different amounts (from cross-eyed to parallel). We are aware of this angle, and thus can use this information to deduce how far away we are looking. 
 
-Again, it's limits involve the difference between distances very far away, as well as objects extremely close.
+This physiological cue is less preceise the further away something is, and breaks down completely for objects that are extremely close.
 
 ![sketch of convergence angles](images/convergence.png)
 
@@ -157,13 +157,13 @@ The shifting of a silouette can be reconstructed as a 3 dimensional shape moving
 Our eyes focus on light (*ahem:* accomodation) in a way ery similar to
 
 ![An image that uses focus to imply depth](images/focusLightOcclusion.png)
-*The deep background is extremely out of focus, the tree is less out of focus, and the model is sharp and in focus. Occlusion also clues us in.*
+*The deep background is extremely out of focus, the tree is less out of focus while Hannah here is sharp and in focus. Occlusion also clues us in.*
 
 Consider this screen capture from *The Untouchables*. 
 
 ![The Untouchables](images/splitDipoter.jpg)
 
-It was shot using a "split diopter". The effect is usually achieved by cutting a lens in half, perhaps combining it with another half-lens of a different focal length. This image feels fake and wrong to us (the effect is more subtle inside of the context, montage, and pacing of film, a screencapture rips it out and lays it bare). It is inconsistent with our understanding of out-of-focus blur, which we expect to be consistent.
+It was shot using a "[split diopter](https://vashivisuals.com/splitting-focus-de-palmas-blow/)". The effect is usually achieved by cutting a lens in half, perhaps combining it with another half-lens of a different focal length. This image feels fake and wrong to us (the effect is more subtle inside of the context, montage, and pacing of film, a screencapture rips it out and lays it bare). It is inconsistent with our understanding of out-of-focus blur, which we expect to be consistent.
 
 *See the example highlighting tilt-shift photography below.*
 
@@ -247,3 +247,4 @@ The effect can also be reinforced when combined with time-lapse or sped-up video
 - Lightfield sensors are a different, interesting, approach to sensing light.
 - [Accommodation-Convergence Reflex](https://en.wikipedia.org/wiki/Accommodation_reflex)
 - [GDC Talk on The Art of Firewatch](https://www.youtube.com/watch?v=SdxQ3HlhTE8)
+- Hitchcock Zoom
