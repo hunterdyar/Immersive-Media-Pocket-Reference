@@ -1,8 +1,3 @@
-
-#Settings
-title: Immersive Media Pocket Reference
-description: A resource for XR design.
-
 remote_theme: daviddarnes/alembic
 
 exclude:
@@ -21,6 +16,10 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-remote-theme
+
+# Site Settings
+title: Immersive Media Pocket Reference
+description: A resource for XR design.
 
 # Header Nav
 navigation_header:
