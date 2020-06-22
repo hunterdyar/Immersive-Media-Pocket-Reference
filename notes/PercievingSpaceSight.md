@@ -150,7 +150,13 @@ The below image doesn't have very many depth cues. The metal bridge is ambiguous
 
 The shifting of a silouette can be reconstructed as a 3 dimensional shape moving through space, and we can understand the shape being presented. We can reverse engineer this information as a 3 dimensional shape.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mkhY5lANs-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![A animated 3D model of a statue spinning. The statue is rendered as a solid color.](images/kineticVenus.gif)
+
+Consider the even more complex example. Unlike the above [human figure](http://www.venusdemilo.gr/), any given frame of this figure has very little information about what it is. But we are still capable of determining the shape.
+
+![Animated 3D model of a bear skill spinning. The skull is rendered as a solid color, with no lighting or shading whatsoever](images/kineticBearSkull.gif)
+
+The 3D models used are [Venus de Milo](https://sketchfab.com/3d-models/venus-de-milo-statuestexturingchallenge-smk-2983d92ac4e744f485492580ca7629f2), and the [skull of a Brown Bear](https://sketchfab.com/3d-models/brown-bear-skull-e01dc94d20df4b888c7a6979bffb45a9). 
 
 ### Out-Of-Focus Blur
 

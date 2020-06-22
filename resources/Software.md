@@ -9,6 +9,8 @@ parent: Resources
 
 Also consider spending time to browse [thise list](http://everest-pipkin.com/teaching/tools.html) of Open Source, Experimental, and tiny tools, collected by Everest Pipkin. 
 
+When it comes to virtual teaching/remote work, resources are collected [here](https://etherpad.wikimedia.org/p/online-tools-for-the-pandemic) and [here](https://libreplanet.org/wiki/Remote_Communication).
+
 A non-exhaustive list of tools for creating VR/AR content. In no particular order. Any editorialization to be taken with a grain of salt.  
 
 ## Game Engines

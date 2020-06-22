@@ -31,6 +31,16 @@ Always ensure that you have the rights to use the thing you are using. Is it act
 - [Archive3D](https://archive3d.net/)*
 - [Stanford 3D Scanning Repository](https://graphics.stanford.edu/data/3Dscanrep/)
 - [Google Poly](https://poly.google.com/)
+- [Sketchfab](https://sketchfab.com)
+
+## Model Collections
+- [Scottish Maritime Museum](https://www.scottishmaritimemuseum.org/3d-collections/)
+- [CC0 Cultural Heritage Collection](https://sketchfab.com/nebulousflynn/collections/cc0)
+- [https://sketchfab.com/artfletch](https://sketchfab.com/artfletch)
+- [Open Source Afro Hair Library](https://prettydarke.cool/portfolio/open-source-afro-hair-library/)
+- [CC0 Cultural Heritage - Aphva](https://sketchfab.com/Aphva/collections/cc0-collection)
+- [CC0 Cleveland Museum of Art](https://sketchfab.com/clevelandart/collections/cma-cc0-objects)
+
 
 ## Textures
 
